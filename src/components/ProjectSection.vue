@@ -11,8 +11,22 @@
           <p class="card-text">An ecommerce app built with HTML, CSS, and JavaScript</p>
         </div>
         <div class="cardControl">
-          <button class="controls">Demo</button>
-          <button class="controls">Github Link</button>
+          <button class="controls"><a href="https://lrncedev.github.io/eCommerceApp/" target="_blank">Demo</a></button>
+          <button class="controls"><a href="https://github.com/lrncedev/eCommerceApp" target="_blank">Github Link</a> </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="cardImg">
+          <img src="../assets/rio.png" class="card-img-top" alt="...">
+        </div>
+        <div class="cardBody">
+          <h5 class="card-title">Rio de Janeiro</h5>
+          <p class="card-text">An landing page built with HTML, CSS, and JavaScript</p>
+        </div>
+        <div class="cardControl">
+          <button class="controls"><a href="https://lrncedev.github.io/odinLandingPage/" target="_blank">Demo</a></button>
+          <button class="controls"><a href="https://github.com/lrncedev/odinLandingPage" target="_blank">Github Link</a> </button>
         </div>
       </div>
 
@@ -25,22 +39,8 @@
           <p class="card-text">An ecommerce app built with HTML, CSS, and JavaScript</p>
         </div>
         <div class="cardControl">
-          <button class="controls">Demo</button>
-          <button class="controls">Github Link</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="cardImg">
-          <img src="https://cdn.pixabay.com/photo/2017/07/28/23/18/coming-soon-2550190_960_720.jpg" class="card-img-top" alt="...">
-        </div>
-        <div class="cardBody">
-          <h5 class="card-title">Storey - ECommerce App</h5>
-          <p class="card-text">An ecommerce app built with HTML, CSS, and JavaScript</p>
-        </div>
-        <div class="cardControl">
-          <button class="controls">Demo</button>
-          <button class="controls">Github Link</button>
+          <button class="controls"><a href="" target="_blank">Demo</a></button>
+          <button class="controls"><a href="" target="_blank">Github Link</a> </button>
         </div>
       </div>
       
@@ -53,8 +53,8 @@
           <p class="card-text">An ecommerce app built with HTML, CSS, and JavaScript</p>
         </div>
         <div class="cardControl">
-          <button class="controls">Demo</button>
-          <button class="controls">Github Link</button>
+          <button class="controls"><a href="" target="_blank">Demo</a></button>
+          <button class="controls"><a href="" target="_blank">Github Link</a> </button>
         </div>
       </div>
     
@@ -132,6 +132,10 @@ padding: .3rem;
   color: white;
   text-transform: uppercase;
   background-color: #49be25;
+}
+
+.controls a {
+  color: white;
 }
 </style>
 
